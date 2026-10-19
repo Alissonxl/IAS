@@ -1,0 +1,5 @@
+<meta>
+    <info author="Server" name="MTA ESP Guard" type="script" version="1.0.0" />
+    <script src="config.lua" type="server" />
+    <script src="server.lua" type="server" />
+</meta>

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "base_prefix": "/home/runner/work/llvm-mingw/llvm-mingw/install/llvm-mingw/python",
+  "base_interpreter": "/home/runner/work/llvm-mingw/llvm-mingw/install/llvm-mingw/python/bin/python3.14",
+  "platform": "win32",
+  "language": {
+    "version": "3.14",
+    "version_info": {
+      "major": 3,
+      "minor": 14,
+      "micro": 5,
+      "releaselevel": "final",
+      "serial": 0
+    }
+  },
+  "implementation": {
+    "name": "cpython",
+    "cache_tag": "cpython-314",
+    "version": {
+      "major": 3,
+      "minor": 14,
+      "micro": 5,
+      "releaselevel": "final",
+      "serial": 0
+    },
+    "hexversion": 51250672,
+    "_multiarch": "",
+    "supports_isolated_interpreters": true
+  },
+  "abi": {
+    "flags": [],
+    "extension_suffix": ".cp314-mingw_x86_64_ucrt_llvm.pyd",
+    "stable_abi_suffix": ".abi3.so"
+  },
+  "suffixes": {
+    "source": [
+      ".py"
+    ],
+    "bytecode": [
+      ".pyc"
+    ],
+    "extensions": [
+      ".cpython-314-x86_64-linux-gnu.so",
+      ".abi3.so",
+      ".so"
+    ]
+  },
+  "libpython": {
+    "dynamic": "/home/runner/work/llvm-mingw/llvm-mingw/python-native/lib/libpython3.14.dll.a",
+    "link_extensions": true,
+    "static": "/home/runner/work/llvm-mingw/llvm-mingw/python-native/lib/libpython3.14.a"
+  },
+  "c_api": {
+    "headers": "/home/runner/work/llvm-mingw/llvm-mingw/python-native/include/python3.14",
+    "pkgconfig_path": "/home/runner/work/llvm-mingw/llvm-mingw/python-native/lib/pkgconfig"
+  }
+}
